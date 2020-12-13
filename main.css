@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=DM+Serif+Text&display=swap');
+body{
+    margin: 0;
+}
+.item {
+    width: 324px;
+    position: relative;
+    border: 1px solid #d2d9d9;
+}
+
+.item img {
+    width: 324px;
+    height: 243px;
+}
+
+.item:hover .lead {
+    opacity: 0.9;
+}
+
+.lead {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 324px;
+    height: 243px;
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+.lead p {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    line-height: 25px;
+}
+
+.headline {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 3px 6px;
+    height: 100px;
+    padding: 5px;
+}
+
+.tag {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    border: 1px solid #1d7726;
+    padding: 2px 5px;
+    font-size: 10px;
+    color: #1d7726;
+}
+
+.story {
+    text-decoration: none;
+    color: #000;
+    margin: 0 20px;
+}
+
+.storylist {
+    display: flex;
+}
+//header{
+    //background: rgba(203, 242, 244, 0.99);
+//}
+nav{
+    float: right;
+}
+header::after{
+    content:'';
+    display: table;
+    clear:both;
+}
+nav ul{
+    list-style: none;
+    margin:0;
+    padding: 0;
+    
+}
+nav li{
+    display: inline-block;
+    margin:17px;
+    padding: 8px;
+}
+nav a{
+    color: #000;
+    text-decoration: none;
+    font-family: 'DM Serif Text', serif;
+}
