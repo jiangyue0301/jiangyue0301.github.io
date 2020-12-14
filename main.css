@@ -70,7 +70,7 @@ body{
     //background: rgba(203, 242, 244, 0.99);
 //}
 nav{
-    float: right;
+    float:none;
 }
 header::after{
     content:'';

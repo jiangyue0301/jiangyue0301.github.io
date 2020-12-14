@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Playfair+Display&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
 h1 {
     font-family: 'Archivo Black', sans-serif;
 }
 
 .byline {
     font-weight: bold;
+    margin: 40 0;
 }
 
 p {
@@ -23,7 +28,7 @@ p {
     margin: 6px;2px;
 }
 nav{
-    float: right;
+    // float: right;
 }
 header::after{
     content:'';
