@@ -18,3 +18,7 @@
 .photo{
     width: 50%;
 }
+
+.photo img {
+    width: 100%;
+}
