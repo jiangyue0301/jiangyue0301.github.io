@@ -1,0 +1,19 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+    color: gold;
+    margin: 30px 0 50px;
+}
+.gallery{
+    width: 80%;
+    margin: 15px auto;
+}
+.img{
+    padding: 10px;
+    transition: 1s;
+}
+/* .gallery img:hover{
+    
+} */
